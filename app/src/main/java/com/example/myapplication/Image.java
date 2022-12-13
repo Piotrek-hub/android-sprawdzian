@@ -16,6 +16,10 @@ public class Image {
     }
 
     int getResourceID() {
+        return resourceID;
+    }
+
+    int getResourceIDAndIncrementCounter() {
         this.incrementCounter();
         return this.resourceID;
     }
